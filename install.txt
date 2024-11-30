@@ -1,0 +1,5 @@
+sudo apt install build-essential libncurses-dev bison flex libssl-dev libelf-dev fakeroot git cmake ccache ntpdate aria2 pv pkg-config libfdt-dev libusb-1.0-0-dev python3 python3-setuptools libfdt-dev swig aptly cryptsetup debootstrap debian-archive-keyring device-tree-compiler dwarves gcc-arm-linux-gnueabihf libbison-dev libc6-dev-armhf-cross lzop p7zip-full patchutils pigz pixz qemu-user-static u-boot-tools uuid-dev lz4 libc6-i386 lib32stdc++6 lib32ncurses-dev gcc-riscv64-linux-gnu
+imagemagick
+
+git clone https://github.com/orangepi-xunlong/orangepi-build.git -b next
+git diff > zero2w.patch
