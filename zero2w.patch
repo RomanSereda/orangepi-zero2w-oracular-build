@@ -80,7 +80,7 @@ index 6e6ab0e..ce1388e 100644
  		OVERLAY_PREFIX='sun50i-h616'
  		ATFSOURCE='https://github.com/ARM-software/arm-trusted-firmware'
 -		ATFBRANCH='branch:master'
-+		ATFBRANCH='commit:af220ebbe467aa580e6b9ba554676f78ffec930f'
++		ATFBRANCH='commit:8e74814ce52ffd235a7e2d429428af154b6e1ea0'
  		ATF_PLAT="sun50i_h616";
  		ATF_TARGET_MAP='PLAT=sun50i_h616 DEBUG=1 bl31;;build/sun50i_h616/debug/bl31.bin'
  		UBOOT_TARGET_MAP=';;u-boot-sunxi-with-spl.bin'
